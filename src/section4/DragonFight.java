@@ -44,7 +44,7 @@ public class DragonFight {
 			
 			}
 		// 11.  Find a random number between 0 and 35 and store it in playerDamage
-		playerDamage = rand.nextInt(36);
+		playerDamage = rand.nextInt(10);
 		// 12. Subtract this number from the player's health
 		playerHealth -= playerDamage;
 		
